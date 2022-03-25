@@ -12,9 +12,9 @@ public class Transportista extends Personas {
 		Transportista.tipo_licencia = tipo_licencia;
 	}
 
-	/*
-	 * public static void main(String[] args) { // TODO Auto-generated method stub
-	 * 
-	 * }
-	 */
+
+	 	public static void main(String[] args) { // TODO Auto-generated method stub
+	 System.out.print("Hola Mundo");
+	  }
+	 
 }
