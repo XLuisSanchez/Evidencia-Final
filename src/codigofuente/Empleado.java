@@ -1,34 +1,41 @@
 package codigofuente;
 
-import java.sql.Time;
-
 public class Empleado extends Personas {
 
-	public static float salario;
-	public static Time hora_entrada;
-	public static Time hora_salida;
+	public static String idempl;
+	public String getIdempl() {
+		return idempl;
+	}
 
-	public static float getSalario() {
+	public  void setIdempl(String idempl) {
+		Empleado.idempl = idempl;
+	}
+
+	public static float salario;
+	public static String hora_entrada;
+	public static String hora_salida;
+
+	public  float getSalario() {
 		return salario;
 	}
 
-	public static void setSalario(float salario) {
+	public void setSalario(float salario) {
 		Empleado.salario = salario;
 	}
 
-	public static Time getHora_entrada() {
+	public  String getHora_entrada() {
 		return hora_entrada;
 	}
 
-	public static void setHora_entrada(Time hora_entrada) {
+	public void setHora_entrada(String hora_entrada) {
 		Empleado.hora_entrada = hora_entrada;
 	}
 
-	public static Time getHora_salida() {
+	public  String getHora_salida() {
 		return hora_salida;
 	}
 
-	public static void setHora_salida(Time hora_salida) {
+	public  void setHora_salida(String hora_salida) {
 		Empleado.hora_salida = hora_salida;
 	}
 

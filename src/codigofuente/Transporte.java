@@ -8,11 +8,11 @@ public class Transporte {
 	public static int modelo;
 	public static String marca;
 
-	public static String getPlacas() {
+	public String getPlacas() {
 		return placas;
 	}
 
-	public static void setPlacas(String placas) {
+	public void setPlacas(String placas) {
 		Transporte.placas = placas;
 	}
 
@@ -20,7 +20,7 @@ public class Transporte {
 		return num_serie;
 	}
 
-	public static void setNum_serie(String num_serie) {
+	public void setNum_serie(String num_serie) {
 		Transporte.num_serie = num_serie;
 	}
 
@@ -28,7 +28,7 @@ public class Transporte {
 		return color;
 	}
 
-	public static void setColor(String color) {
+	public void setColor(String color) {
 		Transporte.color = color;
 	}
 
@@ -36,7 +36,7 @@ public class Transporte {
 		return num_ejes;
 	}
 
-	public static void setNum_ejes(int num_ejes) {
+	public void setNum_ejes(int num_ejes) {
 		Transporte.num_ejes = num_ejes;
 	}
 
@@ -44,7 +44,7 @@ public class Transporte {
 		return modelo;
 	}
 
-	public static void setModelo(int modelo) {
+	public void setModelo(int modelo) {
 		Transporte.modelo = modelo;
 	}
 
@@ -52,14 +52,8 @@ public class Transporte {
 		return marca;
 	}
 
-	public static void setMarca(String marca) {
+	public void setMarca(String marca) {
 		Transporte.marca = marca;
 	}
 
-	/*
-	 * public static void main(String[] args) {
-	 * 
-	 * 
-	 * }
-	 */
 }

@@ -12,7 +12,7 @@ public class Personas {
 		return Nombre;
 	}
 
-	public static void setNombre(String nombre) {
+	public void setNombre(String nombre) {
 		Nombre = nombre;
 	}
 
@@ -56,10 +56,4 @@ public class Personas {
 		RFC = rFC;
 	}
 
-	/*
-	 * public static void main(String[] args){
-	 * 
-	 * 
-	 * }
-	 */
 }
